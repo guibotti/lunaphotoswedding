@@ -9,7 +9,7 @@
   --color-foreground: var(--foreground);
 }
 
-:root { --background: #f4eee5; --foreground: #302b27; --radius: .25rem; }
+:root { --background: #f4eee5; --foreground: #302b27; --radius: .25rem; --font-serif: Georgia, 'Times New Roman', serif; --font-sans: Arial, Helvetica, sans-serif; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-sans), sans-serif; }
