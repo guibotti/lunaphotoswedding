@@ -6,6 +6,7 @@ const serif = Cormorant_Garamond({ variable: '--font-serif', subsets: ['latin'],
 const sans = Manrope({ variable: '--font-sans', subsets: ['latin'], weight: ['400','500','600','700'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://luna-photos-wedding.guilherme-botti44.chatgpt.site'),
   title: 'Luna Photograph Wedding | Fotografia de Casamento',
   description: 'Fotografias sensíveis e verdadeiras para guardar o que o tempo não consegue repetir. Conheça o olhar da Luna para histórias de casamento.',
   openGraph: { title: 'Luna Photograph Wedding', description: 'O seu amor, do jeito que é. Fotografia sensível para histórias de casamento.', images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Luna Photograph Wedding — O seu amor, do jeito que é.' }] },
