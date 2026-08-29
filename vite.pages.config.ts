@@ -10,7 +10,7 @@ export default defineConfig({
   css: { postcss: { plugins: [tailwindcss()] } },
   plugins: [react()],
   build: {
-    outDir: resolve(__dirname, 'gh-pages-dist'),
+    outDir: resolve(__dirname, 'docs'),
     emptyOutDir: true,
   },
 });
